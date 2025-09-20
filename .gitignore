@@ -24,4 +24,5 @@ dist/
 
 # Others
 .DS_Store
-dataset
+
+dataset/
