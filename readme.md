@@ -79,4 +79,4 @@ python src/predict.py --video path/to/file.mp4 --out results/out.mp4 --skip 3
 ### Sample Annotated Video Frames
 
 ![Annotated Frame 1](results/out.mp4)  
-![Annotated Frame 2](results/Screenshot 2025-09-21 204836.png)
+![Annotated Frame 2](results/frame.png)
