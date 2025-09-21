@@ -76,7 +76,7 @@ python src/predict.py --video path/to/file.mp4 --out results/out.mp4 --skip 3
 
 ![Confusion Matrix](results/confusion_matrix.png)
 
-### Sample Annotated Video Frames
+<!-- ### Sample Annotated Video Frames -->
 
-![Annotated Frame 1](results/out.mp4)  
-![Annotated Frame 2](results/frame.png)
+<!-- ![Annotated Frame 1](results/out.mp4)
+![Annotated Frame 2](results/frame.png) -->
