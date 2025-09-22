@@ -9,7 +9,7 @@ A deep learning-based system for detecting weapons (guns, knives) in video strea
 
 ## 📂 Dataset
 
-- **Source(s):** [Kaggle](https://www.kaggle.com/), [Roboflow](https://roboflow.com/)
+- **Source(s):** [Roboflow](https://roboflow.com/)
 - **Classes:**
 
   - Guns: XX images
