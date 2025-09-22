@@ -2,8 +2,8 @@
 
 ## 📝 Short Description
 
-A deep learning-based system for detecting weapons in video streams to enhance public safety.  
-**Security Goal:** Early detection of weapons to prevent potential threats.
+A deep learning-based system for detecting weapons (guns, knives) in video streams using **ResNet50 transfer learning**.  
+**Security Goal:** Early detection of weapons to enhance public safety and prevent potential threats.
 
 ---
 
@@ -11,11 +11,12 @@ A deep learning-based system for detecting weapons in video streams to enhance p
 
 - **Source(s):** [Kaggle](https://www.kaggle.com/), [Roboflow](https://roboflow.com/)
 - **Classes:**
+
   - Guns: XX images
   - Knives: XX images
-  - Others/Background: XX images
+
 - **Preprocessing:**
-  - Resized to 224x224
+  - Resized to **224×224**
   - Normalized pixel values (0–1)
   - Data augmentation: rotation, flipping, brightness adjustments
 
@@ -44,8 +45,6 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
-
 ### 2. Train Model
 
 ```bash
@@ -61,20 +60,23 @@ python src/evaluate.py
 ### 4. Run Video Inference
 
 ```bash
-python src/predict.py --video path/to/file.mp4 --out results/out.mp4 --skip 3
+python src/predict.py
 ```
 
-## 📸 Screenshot
+### 5. Outputs / Screenshots
 
-### Training Curves
+#### Training Curves
 
 ![Training Curve](results/training_plot.png)
 
-### Evaluation Metrics
+#### Evaluation Metrics
 
 ![Confusion Matrix](results/confusion_matrix.png)
 
-<!-- ### Sample Annotated Video Frames -->
+#### Sample Detection (Video)
 
-<!-- ![Annotated Frame 1](results/out.mp4)
-![Annotated Frame 2](results/frame.png) -->
+- **Green Box** → No Weapon
+- **Red Box** → Weapon Detected
+- Live probabilities are displayed on the frame
+
+![Annotated Frame](results/frame.png)
