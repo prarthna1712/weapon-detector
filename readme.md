@@ -64,9 +64,7 @@ python src/evaluate.py
 python src/predict.py --video path/to/file.mp4 --out results/out.mp4 --skip 3
 ```
 
-## 📸 Screenshots
-
-(Add screenshots in the `results/` folder)
+## 📸 Screenshot
 
 ### Training Curves
 
