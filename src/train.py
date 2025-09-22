@@ -33,7 +33,7 @@ rlr  = tf.keras.callbacks.ReduceLROnPlateau(monitor="val_loss", factor=0.5, pati
 history = model.fit(train_ds, validation_data=val_ds, epochs=EPOCHS, callbacks=[ckpt, es, rlr])
 
 # Save final SavedModel
-# model.save("models/best_model_saved.keras")
+model.save("models/best_model_saved.keras")
 
 
 # Save training curves

@@ -70,13 +70,13 @@ python src/predict.py --video path/to/file.mp4 --out results/out.mp4 --skip 3
 
 ### Training Curves
 
-![Training Curve](results/training_plot.png)
+![Training Curve](results/train_accuracy.png)
 
 ### Evaluation Metrics
 
 ![Confusion Matrix](results/confusion_matrix.png)
 
-### Sample Annotated Video Frames
+<!-- ### Sample Annotated Video Frames -->
 
-![Annotated Frame 1](results/out.mp4)  
-![Annotated Frame 2](results/frame.png)
+<!-- ![Annotated Frame 1](results/out.mp4)
+![Annotated Frame 2](results/frame.png) -->
