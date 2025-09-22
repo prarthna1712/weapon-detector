@@ -68,7 +68,7 @@ python src/predict.py --video path/to/file.mp4 --out results/out.mp4 --skip 3
 
 ### Training Curves
 
-![Training Curve](results/train_accuracy.png)
+![Training Curve](results/training_plot.png)
 
 ### Evaluation Metrics
 
