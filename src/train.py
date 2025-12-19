@@ -16,7 +16,7 @@ train_ds, val_ds, class_names = load_data(TRAIN_DIR, VAL_DIR, img_size=IMG_SIZE,
 # Build model
 model = build_model(input_shape=(*IMG_SIZE,3), num_classes=len(class_names))
 
-# ✅ Use sparse_categorical_crossentropy since labels are int
+# Use sparse_categorical_crossentropy since labels are int
 model.compile(
     optimizer=tf.keras.optimizers.Adam(1e-4),
     loss="sparse_categorical_crossentropy",
